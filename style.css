@@ -54,7 +54,7 @@
     -webkit-transform: translateX(-50%);
     width: 5px;
     height: 5px;
-    border: 2px solid #4285F4;
+    border: 2px solid #0005df;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
@@ -66,14 +66,15 @@
 }
 
 .timeline ul li .content {
-    background: #4285F4;
+    background: #0005df;
     position: relative;
     top: -7px;
     width: 450px;
     padding: 0px;
     border-radius: 4px;
     border: 1px solid #dbe2eb;
-    box-shadow: 3px 3px 12px 0 rgba(45, 62, 80, .12);
+    background: 0% 0% no-repeat padding-box padding-box rgb(255, 255, 255);
+    box-shadow: rgb(220, 234, 255) 0px 3px 16px;
     transition: all 0.2s ease-in-out;
 }
 
@@ -97,7 +98,7 @@
 
 .timeline ul li .content:before {
     content: "";
-    background: #4285F4;
+    background: #0005df;
     position: absolute;
     top: 9.5px;
     width: 42px;
@@ -115,7 +116,7 @@
     -webkit-transform: translateX(-50%);
     width: 5px;
     height: 5px;
-    border: 2px solid #4285F4;
+    border: 2px solid #0005df;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
@@ -147,7 +148,7 @@
     display: flex;
     align-content: space-around;
     justify-content: space-between;
-    padding: 7px;
+    padding: 8px 10px;
     background: #0005Df;
     color: rgb(255, 255, 255);
     font-size: 14px;
@@ -163,7 +164,7 @@
 
 .roadmap-header-icon {
     max-height: 20px;
-    margin-right: 8px;
+    margin-right: 10px;
     padding: 0px;
     border-radius: 5px;
 }
@@ -185,13 +186,13 @@
 @media screen and (max-width: 1020px) {
     .roadmap-header-content {
         font-size: 32px;
-        padding: 20px;
+        padding: 18px 22px;
         border-top-right-radius: 5px;
         border-top-left-radius: 5px;
     }
     .roadmap-header-icon {
         max-height: 45px;
-        margin-right: 12px;
+        margin-right: 14px;
     }
     .timeline ul li .content p {
         padding: 25px;
@@ -200,13 +201,13 @@
     .timeline ul li .content:after {
         width: 15px;
         height: 15px;
-        border: 3px solid #4285F4;
+        border: 3px solid #0005df;
         top: 13px;
     }
     .timeline ul li:before {
         width: 15px;
         height: 15px;
-        border: 3px solid #4285F4;
+        border: 3px solid #0005df;
         top: -1px;
         margin-right: -4px;
         z-index: 1;
@@ -221,6 +222,7 @@
         margin-left: 45px;
         padding-bottom: 55px;
         border-left: 8px dotted #dbe2eb;
+        border-right: none;
     }
     .timeline ul li .content {
         width: calc(92vw - 92px);
@@ -293,7 +295,7 @@
 }
 
 .count-s-box h2 {
-    font-size: 3.8rem;
+    font-size: 4.4rem;
     font-weight: 500;
     padding: 8px;
     color: #0005Df;
@@ -301,7 +303,7 @@
 
 .count-s-box p {
     font-weight: 400;
-    font-size: 1.8rem;
+    font-size: 2rem;
     color: rgba(94, 94, 94, 0.945);
 }
 

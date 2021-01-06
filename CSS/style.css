@@ -17,18 +17,18 @@
 }
 
 .timeline h1 {
-    background: rgb(219 226 235 / 50%);
-    padding: 14px 0;
+    padding: 10px 0;
     font-family: Product Sans;
-    font-size: 22px;
+    font-size: 25px;
     text-align: center;
     color: black;
     letter-spacing: 1px;
+    margin-bottom: 5px;
 }
 
 .timeline ul {
     background: #ffffff;
-    padding: 50px 0;
+    padding: 30px 0;
 }
 
 .timeline ul li {
@@ -185,47 +185,47 @@
 
 @media screen and (max-width: 1020px) {
     .roadmap-header-content {
-        font-size: 32px;
-        padding: 18px 22px;
+        font-size: 12px;
+        padding: 8px 10px;
         border-top-right-radius: 5px;
         border-top-left-radius: 5px;
     }
     .roadmap-header-icon {
-        max-height: 45px;
-        margin-right: 14px;
+        max-height: 18px;
+        margin-right: 5px;
     }
     .timeline ul li .content p {
-        padding: 25px;
-        font-size: 25px;
+        padding: 15px;
+        font-size: 15px;
     }
     .timeline ul li .content:after {
-        width: 15px;
-        height: 15px;
-        border: 3px solid #0005df;
-        top: 13px;
+        width: 4px;
+        height: 4px;
+        border: 2px solid #0005df;
+        top: 11px;
     }
     .timeline ul li:before {
-        width: 15px;
-        height: 15px;
-        border: 3px solid #0005df;
-        top: -1px;
-        margin-right: -4px;
+        width: 4px;
+        height: 4px;
+        border: 2px solid #0005df;
+        top: -3px;
+        margin-right: 7px;
         z-index: 1;
     }
     .timeline ul li .content:before {
-        width: 60px;
-        height: 5px;
-        margin: 0 -26px;
-        top: 18.5px;
+        width: 35px;
+        height: 3px;
+        margin: 0 4.5px;
+        top: 14px;
     }
     .timeline ul li {
-        margin-left: 45px;
-        padding-bottom: 55px;
-        border-left: 8px dotted #dbe2eb;
+        margin-left: 22px;
+        padding-bottom: 20px;
+        border-left: 4px dotted #dbe2eb;
         border-right: none;
     }
     .timeline ul li .content {
-        width: calc(92vw - 92px);
+        width: calc(101vw - 92px);
         margin-left: 15px;
         border: 1.5px solid #dbe2eb;
         top: -15px;
@@ -235,11 +235,11 @@
         text-align: initial;
     }
     .timeline ul li:nth-child(even) .content {
-        left: 45px;
+        left: 15px;
         background: #fff;
     }
     .timeline ul li:nth-child(odd) .content {
-        left: 45px;
+        left: 15px;
         background: #fff;
     }
     .timeline ul li:nth-child(even) .content:before {
@@ -260,12 +260,12 @@
 /*-----------------------------------*/
 
 .count-m-container {
-    padding: 1.2rem;
+    padding: 0.8rem;
 }
 
 .count-container {
     font-family: "Product Sans";
-    padding: 5px;
+    padding: 4px;
     justify-content: space-around;
 }
 
@@ -277,6 +277,7 @@
     text-align: center;
     flex-flow: wrap;
     width: 100%;
+    margin-bottom: 5px;
 }
 
 .count-row2-box {
@@ -290,20 +291,21 @@
 }
 
 .count-s-box {
-    margin-bottom: 10px;
-    padding: 15px;
+    margin-bottom: 0px;
+    padding: 5px;
 }
 
 .count-s-box h2 {
-    font-size: 4.4rem;
+    font-size: 35px;
     font-weight: 500;
     padding: 8px;
     color: #0005Df;
+    margin-bottom: 5px;
 }
 
 .count-s-box p {
     font-weight: 400;
-    font-size: 2rem;
+    font-size: 15px;
     color: rgba(94, 94, 94, 0.945);
 }
 
@@ -322,6 +324,7 @@
     }
     .count-s-box h2 {
         font-size: 2.5rem;
+        margin-bottom: 0px;
     }
     .count-s-box p {
         font-size: 1.1rem;

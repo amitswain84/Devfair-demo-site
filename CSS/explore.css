@@ -155,6 +155,11 @@ a.nav-active {
     font-weight: 400;
 }
 
+.tab-img:hover {
+    background: #0004df11;
+    border: 2px solid #0004df9a;
+}
+
 section.flex-1 {
     padding: 20px;
     margin: 5px 0px 20px 20px;
@@ -249,14 +254,19 @@ img.tab-box-img {
 @media only screen and (max-width: 550px) {
     section.flex-1 {
         padding: 18px;
-        margin: 5px 0px 10px 5px;
+        margin: 8px 6px 8px 6px;
+        box-shadow: rgb(220, 234, 255) 0px 1.3px 8px;
     }
     .tabbed-container {
         padding-right: 0px;
         padding-bottom: 0px;
     }
     [role="main"] {
-        padding: 0 7% 10px;
+        padding: 0 5% 10px;
+    }
+    [role="navigation"] {
+        padding: 10px 5%;
+        padding-bottom: 0px;
     }
     [role="navigation"] a {
         padding: 12px 14px;
@@ -264,5 +274,6 @@ img.tab-box-img {
         margin-left: 3px;
         font-weight: 500;
         text-align: center;
+        box-shadow: rgb(220, 234, 255) 0px 1px 6px;
     }
 }

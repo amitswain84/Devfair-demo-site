@@ -1,0 +1,345 @@
+@font-face {
+    font-family: "Product Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Open Sans"), local("OpenSans"), url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format("woff2");
+}
+
+.subcribe-main-section {
+    padding: 0 20px;
+    margin: 0 15px;
+    font-family: "Product Sans" !important;
+    letter-spacing: 0.5px;
+}
+
+.Container {
+    padding: 40px;
+    margin: 0 15px;
+}
+
+.Subscribe {
+    height: 120px;
+    padding: 30px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 6px;
+    border: 2px solid rgb(220, 234, 255);
+    margin-bottom: 20px;
+    background-color: white;
+    box-shadow: 0 6px 10px 0 rgba(149, 144, 179, 0.15), 0 15px 50px 0 rgba(182, 182, 224, 0.1);
+}
+
+.Subscribe::after {
+    width: 150%;
+    height: 150px;
+    content: "";
+    z-index: 1;
+    position: absolute;
+    bottom: -35px;
+    left: -25%;
+    transform: rotate(-5deg);
+    background-color: #F9F9FC;
+    transition: transform 1s cubic-bezier(0.2, 0, 0, 1);
+}
+
+.Subscribe h3 {
+    font-family: "Product Sans";
+    color: #0005df;
+    font-size: 22px;
+    margin-bottom: 15px;
+    transition: opacity 900ms 150ms cubic-bezier(0.2, 0, 0, 1), transform 900ms 150ms cubic-bezier(0.2, 0, 0, 1);
+}
+
+.Subscribe p {
+    font-family: "Product Sans";
+    color: #827C8C;
+    font-size: 16px;
+    line-height: 4px;
+    margin-bottom: 30px;
+    transition: opacity 900ms 100ms cubic-bezier(0.2, 0, 0, 1), transform 900ms 100ms cubic-bezier(0.2, 0, 0, 1);
+}
+
+.Subscribe form {
+    z-index: 2;
+    left: 20px;
+    width: 470px;
+    height: 46px;
+    bottom: 25px;
+    overflow: hidden;
+    position: absolute;
+    border-radius: 4px;
+    border: 1px solid #ffffff;
+    border: 1px solid rgb(220, 234, 255);
+    background: #FFFFFF;
+    box-shadow: 0 3px 6px 0 rgba(149, 144, 179, 0.2);
+    transition: transform 600ms cubic-bezier(0.2, 0, 0, 1);
+}
+
+.Subscribe form:hover {
+    border: 2px solid #0005DF;
+}
+
+.Subscribe form::after {
+    top: 0;
+    content: "";
+    width: 30px;
+    height: 100%;
+    right: 110px;
+    position: absolute;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0), white);
+}
+
+.Subscribe form input[type=text] {
+    border: none;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    font-size: 16px;
+    font-weight: 300 !important;
+    letter-spacing: 0.5px;
+    padding: 0 110px 0 20px;
+    font-family: "Product Sans";
+}
+
+.Subscribe form .submit-button {
+    top: 0;
+    right: 0;
+    padding: 0;
+    cursor: pointer;
+    outline: none;
+    width: 110px;
+    border: none;
+    height: 100%;
+    color: #0005df;
+    font-size: 15px;
+    position: absolute;
+    background-color: white;
+    transition: color 500ms;
+}
+
+.Subscribe form .submit-button:hover {
+    color: #0005df;
+    font-weight: 500 !important;
+}
+
+.Loading {
+    left: 0;
+    opacity: 0;
+    z-index: 0;
+    width: 100%;
+    bottom: 50px;
+    position: absolute;
+    text-align: center;
+    potiner-events: none;
+    transition: opacity 900ms 0s cubic-bezier(0.2, 0, 0, 1), transform 900ms 0s cubic-bezier(0.2, 0, 0, 1);
+}
+
+.Loading .LoadingDot {
+    width: 6px;
+    opacity: 0;
+    height: 6px;
+    margin: 0 1px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #B6B6CF;
+}
+
+.Loading .LoadingDot:nth-child(1) {
+    animation: loading 2s 0ms infinite;
+}
+
+.Loading .LoadingDot:nth-child(2) {
+    animation: loading 2s 200ms infinite;
+}
+
+.Loading .LoadingDot:nth-child(3) {
+    animation: loading 2s 400ms infinite;
+}
+
+.Loading .LoadingDot:nth-child(4) {
+    animation: loading 2s 600ms infinite;
+}
+
+.Loading span {
+    color: #B6B6CF;
+    display: block;
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+@keyframes loading {
+    0% {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+    33% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    66% {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+}
+
+.Complete {
+    left: 0;
+    top: 30px;
+    width: 100%;
+    padding: 0 30px;
+    text-align: center;
+    position: absolute;
+}
+
+.Complete .Tick {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    display: inline-block;
+    background-color: #0005df;
+    opacity: 0;
+    transform: scale(0.5);
+    transition: opacity 600ms 200ms, transform 600ms 200ms;
+}
+
+.Complete .Tick svg {
+    opacity: 0;
+    margin-top: 16px;
+    transform: scale(0.5);
+    transition: opacity, 400ms 500ms, transform 300ms 500ms cubic-bezier(0.2, 0, 0, 1.2);
+}
+
+.Complete h4 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    opacity: 0;
+    transform: translateY(-15px);
+    transition: opacity 600ms 450ms, transform 600ms 450ms;
+}
+
+.Complete span {
+    opacity: 0;
+    color: #827C8C;
+    display: block;
+    font-size: 15px;
+    transform: translateY(-15px);
+    transition: opacity 600ms 400ms, transform 600ms 400ms;
+}
+
+.Subscribe--loading form,
+.Subscribe--complete form {
+    transform: translateY(110px);
+}
+
+.Subscribe--loading p,
+.Subscribe--complete p {
+    transform: translateY(110px);
+}
+
+.Subscribe--loading h3,
+.Subscribe--complete h3 {
+    transform: translateY(150px);
+}
+
+.Subscribe--loading::after,
+.Subscribe--complete::after {
+    transform: rotate(0) translateY(100px);
+}
+
+.Subscribe--loading .Loading,
+.Subscribe--complete .Loading {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.Subscribe--complete .Loading {
+    opacity: 0;
+    transform: translateY(100px);
+}
+
+.Subscribe--complete h3 {
+    transform: translateY(140px);
+    opacity: 0;
+}
+
+.Subscribe--complete p {
+    transform: translateY(100px);
+    opacity: 0;
+}
+
+.Subscribe--complete .Complete .Tick {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.Subscribe--complete .Complete .Tick svg {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.Subscribe--complete .Complete h4,
+.Subscribe--complete .Complete span {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.Container small {
+    width: 100%;
+    display: block;
+    color: #B6B6CF;
+    font-size: 14px;
+    padding: 0 30px;
+    line-height: 22px;
+    text-align: center;
+}
+
+
+/* media Query */
+
+@media screen and (max-width: 992px) {
+    .Container {
+        padding: 5px;
+        margin: 0px;
+    }
+    .Subscribe {
+        height: 170px;
+        padding: 20px;
+    }
+    .subcribe-main-section {
+        padding: 0 5px;
+        margin: 0 10px
+    }
+    .Subscribe p {
+        line-height: 20px;
+    }
+    .Subscribe form {
+        width: 348px;
+        right: 15px;
+        transform: translateX(-12px)
+    }
+    .Subscribe form input[type=text] {
+        padding: 0 0 0 10px;
+        width: 68%;
+    }
+    .Subscribe--loading form,
+    .Subscribe--complete form {
+        transform: translateY(200px);
+    }
+    .Subscribe--loading p,
+    .Subscribe--complete p {
+        transform: translateY(200px);
+    }
+    .Subscribe--loading h3,
+    .Subscribe--complete h3 {
+        transform: translateY(200px);
+    }
+    .Complete {
+        width: 85%;
+        top: 45px;
+    }
+    .Complete span {
+        font-size: 12px;
+    }
+}

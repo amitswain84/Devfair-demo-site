@@ -14,6 +14,7 @@
 
 .timeline {
     color: #fff;
+    font-family: "Product Sans" !important;
 }
 
 .timeline h1 {
@@ -66,6 +67,7 @@
 }
 
 .timeline ul li .content {
+    font-family: "Product Sans" !important;
     background: #0005df;
     position: relative;
     top: -7px;
@@ -84,6 +86,7 @@
 }
 
 .timeline ul li .content h2 {
+    font-family: "Product Sans" !important;
     color: #fff;
     padding-bottom: 10px;
     text-align: center;
@@ -93,12 +96,13 @@
     text-align: start;
     color: black;
     padding: 15px;
-    font-family: Product Sans;
+    font-family: "Product Sans" !important;
+    line-height: 20px;
 }
 
 .timeline ul li .content:before {
     content: "";
-    background: #0005df;
+    background: #0004dfc5;
     position: absolute;
     top: 9.5px;
     width: 42px;
@@ -155,6 +159,7 @@
     font-family: Product Sans;
     font-weight: 300;
     letter-spacing: 1px;
+    font-family: Product Sans !important;
 }
 
 .roadmap-header-first {
@@ -185,7 +190,7 @@
 
 @media screen and (max-width: 1020px) {
     .roadmap-header-content {
-        font-size: 12px;
+        font-size: 14px;
         padding: 8px 10px;
         border-top-right-radius: 5px;
         border-top-left-radius: 5px;
@@ -197,6 +202,7 @@
     .timeline ul li .content p {
         padding: 15px;
         font-size: 15px;
+        line-height: 20px;
     }
     .timeline ul li .content:after {
         width: 4px;
@@ -247,6 +253,9 @@
     }
     .left-round::after {
         left: -1px !important;
+    }
+    h3.road-first-lefttext {
+        margin-top: 2px;
     }
 }
 

@@ -13,7 +13,7 @@ h1,
 h2,
 h3,
 h4 {
-    font-family: "Product Sans";
+    font-family: "Product Sans" !important;
 }
 
 ::-moz-selection {
@@ -179,6 +179,7 @@ section.flex-1 {
     background: 0% 0% no-repeat padding-box padding-box rgb(255, 255, 255);
     box-shadow: rgb(220, 234, 255) 0px 3px 16px;
     transition: all 0.2s ease-in-out;
+    font-family: "Product Sans";
 }
 
 section.flex-1:hover {
@@ -194,6 +195,10 @@ h2.event-topic-title {
     font-weight: 500;
     color: black;
     margin: 10px 0 15px 0;
+}
+
+p.event-topic-title {
+    line-height: 20px;
 }
 
 img.tab-box-img {

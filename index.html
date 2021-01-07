@@ -6,7 +6,9 @@
     <title>DevFair India 2021</title>
     <link rel="stylesheet" href="CSS/explore.css">
     <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/subscribe.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@animxyz/core@0.3.0/dist/animxyz.min.css">
 
 </head>
@@ -287,12 +289,61 @@
     </div>
     <!-- Counter-container-END -->
 
+
+    <!-- Subscribe Section START -->
+    <div class="subcribe-main-section">
+        <div class="Container">
+            <div class="Subscribe" onload='document.form1.text1.focus()'>
+                <h3>Subscribe to our newsletter</h3>
+                <p>Weekly animation tutorials delivered straight to your inbox</p>
+                <form name="form1" action="#">
+                    <input type="text" name='text1' placeholder="example@gmail.com" />
+                    <input class="submit-button" type="submit" name="Validate" value="Subscribe" onclick="ValidateEmail(document.form1.text1)" />
+
+                </form>
+                <div class="Loading">
+                    <div class="LoadingDot"></div>
+                    <div class="LoadingDot"></div>
+                    <div class="LoadingDot"></div>
+                    <div class="LoadingDot"></div>
+                    <span>Subscribing</span>
+                </div>
+                <div class="Complete">
+                    <div class="Tick">
+
+                        <svg width="32px" height="25px" viewBox="0 0 32 25">
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-384.000000, -217.000000)" fill-rule="nonzero" fill="#FFFFFF">
+            <g id="Group" transform="translate(360.000000, 189.000000)">
+                <path d="M27.4142136,40.5857864 C26.633165,39.8047379 25.366835,39.8047379 24.5857864,40.5857864 C23.8047379,41.366835 23.8047379,42.633165 24.5857864,43.4142136 L34,52.8284271 L55.4142136,31.4142136 C56.1952621,30.633165 56.1952621,29.366835 55.4142136,28.5857864 C54.633165,27.8047379 53.366835,27.8047379 52.5857864,28.5857864 L34,47.1715729 L27.4142136,40.5857864 Z" id="Path-2"></path>
+            </g>
+        </g>
+    </g>
+</svg>
+                    </div>
+                    <h4>Thank you for subscribing</h4>
+                    <span>You will receive a confirmation email shortly.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Subscribe Section ENDS -->
+
+
+
     <div class="endbox">
         <h1>END</h1>
     </div>
     <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
     <script src="JS/script.js"></script>
     <script src="JS/explore.js"></script>
+    <script src="JS/subscribe.js"></script>
+    <script src="JS/email-validation.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/react/15.6.1/react.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/react/15.6.1/react-dom.min.js'></script>
 
 </body>
 

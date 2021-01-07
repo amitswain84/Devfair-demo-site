@@ -16,6 +16,16 @@ h4 {
     font-family: "Product Sans";
 }
 
+::-moz-selection {
+    color: white;
+    background: #0004dfb9;
+}
+
+::selection {
+    color: white;
+    background: #0004dfb9;
+}
+
 .flex {
     display: -webkit-box;
     /* OLD: Safari, iOS, Android browser */
@@ -175,6 +185,7 @@ section.flex-1:hover {
     background: 0% 0% no-repeat padding-box padding-box rgb(255, 255, 255);
     box-shadow: rgb(220, 234, 255) 0px 3px 16px;
     transform: scale(1.02);
+    border: 1px solid #0004dfa2;
 }
 
 h2.event-topic-title {

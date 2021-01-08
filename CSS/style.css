@@ -53,8 +53,8 @@
     top: 0;
     transform: translateX(-50%);
     -webkit-transform: translateX(-50%);
-    width: 5px;
-    height: 5px;
+    width: 4px;
+    height: 4px;
     border: 2px solid #0005df;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -104,10 +104,10 @@
     content: "";
     background: #0004dfc5;
     position: absolute;
-    top: 9.5px;
-    width: 42px;
+    top: 9px;
+    width: 44px;
     height: 2px;
-    margin: 0 -6px;
+    margin: 0 -7px;
 }
 
 .timeline ul li .content:after {
@@ -118,8 +118,8 @@
     left: -1px;
     transform: translateX(-50%);
     -webkit-transform: translateX(-50%);
-    width: 5px;
-    height: 5px;
+    width: 4px;
+    height: 4px;
     border: 2px solid #0005df;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -155,11 +155,13 @@
     padding: 8px 10px;
     background: #0004dfc5;
     color: rgb(255, 255, 255);
-    font-size: 14px;
+    font-size: 15px;
     font-family: Product Sans;
     font-weight: 300;
     letter-spacing: 1px;
     font-family: Product Sans !important;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
 }
 
 .roadmap-header-first {
@@ -172,6 +174,10 @@
     margin-right: 10px;
     padding: 0px;
     border-radius: 5px;
+}
+
+h3.road-first-lefttext {
+    margin-top: 3px;
 }
 
 
@@ -190,7 +196,7 @@
 
 @media screen and (max-width: 1020px) {
     .roadmap-header-content {
-        font-size: 14px;
+        font-size: 15px;
         padding: 8px 10px;
         border-top-right-radius: 5px;
         border-top-left-radius: 5px;
@@ -219,9 +225,9 @@
         z-index: 1;
     }
     .timeline ul li .content:before {
-        width: 35px;
+        width: 22px;
         height: 3px;
-        margin: 0 4.5px;
+        margin: 0 13.6px;
         top: 14px;
     }
     .timeline ul li {
@@ -231,7 +237,7 @@
         border-right: none;
     }
     .timeline ul li .content {
-        width: calc(101vw - 92px);
+        width: calc(105vw - 92px);
         margin-left: 15px;
         border: 1.5px solid #dbe2eb;
         top: -15px;
@@ -241,11 +247,11 @@
         text-align: initial;
     }
     .timeline ul li:nth-child(even) .content {
-        left: 15px;
+        left: 5px;
         background: #fff;
     }
     .timeline ul li:nth-child(odd) .content {
-        left: 15px;
+        left: 5px;
         background: #fff;
     }
     .timeline ul li:nth-child(even) .content:before {

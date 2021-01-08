@@ -22,7 +22,9 @@
     font-family: Product Sans;
     font-size: 25px;
     text-align: center;
-    color: black;
+    background: linear-gradient(135deg, rgba(66, 133, 244, 1) 38%, rgba(66, 133, 244, 1) 43%, rgba(219, 68, 55, 1) 47%, rgba(244, 180, 0, 1) 50%, rgba(15, 157, 88, 1) 56%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     letter-spacing: 1px;
     margin-bottom: 5px;
 }
@@ -153,7 +155,7 @@
     align-content: space-around;
     justify-content: space-between;
     padding: 8px 10px;
-    background: #0004dfc5;
+    background: linear-gradient(135deg, rgba(66, 133, 244, 1) 20%, rgba(219, 68, 55, 1) 40%, rgba(244, 180, 0, 1) 60%, rgba(15, 157, 88, 1) 90%);
     color: rgb(255, 255, 255);
     font-size: 14px;
     font-family: Product Sans;

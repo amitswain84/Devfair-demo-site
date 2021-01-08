@@ -173,10 +173,11 @@ a.nav-active {
 section.flex-1 {
     padding: 20px;
     margin: 5px 0px 20px 20px;
-    border-radius: 4px;
-    border: 1px solid rgb(220, 234, 255);
-    background: #ffffff;
-    background: 0% 0% no-repeat padding-box padding-box rgb(255, 255, 255);
+    border-radius: 5px;
+    border: 3.7px solid;
+    border-image-slice: 1;
+    border-width: 3.7px;
+    border-image-source: linear-gradient(135deg, rgba(66, 133, 244, 1) 25%, rgba(219, 68, 55, 1) 45%, rgba(244, 180, 0, 1) 65%, rgba(15, 157, 88, 1) 90%);
     box-shadow: rgb(220, 234, 255) 0px 3px 16px;
     transition: all 0.2s ease-in-out;
     font-family: "Product Sans";
@@ -185,8 +186,8 @@ section.flex-1 {
 section.flex-1:hover {
     background: 0% 0% no-repeat padding-box padding-box rgb(255, 255, 255);
     box-shadow: rgb(220, 234, 255) 0px 3px 16px;
-    transform: scale(1.02);
-    border: 1px solid #0004dfa2;
+    transform: scale(1.01);
+    border-radius: 5px;
 }
 
 h2.event-topic-title {
@@ -202,7 +203,13 @@ p.event-topic-title {
 }
 
 img.tab-box-img {
-    height: 45px;
+    height: 40px;
+}
+
+section.flex-1 p {
+    line-height: 20px;
+    font-size: 16px;
+    color: #353434;
 }
 
 @media (min-width:900px) {

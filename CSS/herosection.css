@@ -214,12 +214,10 @@ i.timer-dot {
         font-size: 22px;
         padding: 10px;
         width: 35px;
+        box-shadow: rgb(220, 234, 255) 0px 0.9px 6px;
     }
     i.timer-dot {
         transform: translateY(-33px);
-    }
-    li span {
-        font-size: 3.375rem;
     }
     div#clock-countdown {
         margin-left: -20px;
@@ -227,7 +225,7 @@ i.timer-dot {
     }
     .register-btn,
     .get-your-badge {
-        padding: 10px 20px;
+        padding: 10px 28px;
         font-size: 15px;
     }
     .register-follow-button {

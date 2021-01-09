@@ -23,15 +23,75 @@
                 <img src="img/Devfair-hero.png" alt="" class="hero-sec-img">
                 <div class="hero-time-line-date">
                     <img src="" alt="" class="hero-date-time-img">
-                    <h3>October 16-18, 2020</h3>
+                    <h3>March 02-10, 2021</h3>
                     <h2>|</h2>
                     <img src="" alt="" class="hero-date-time-img">
                     <h3>Online</h3>
                 </div>
-                <p>This year 50 Google Developer Groups in India have come together to organise a Code Concert for developers with diverse backgrounds on 16th, 17th and 18th of October 2020 - called DEVFEST INDIA 2020.</p>
-                <p>#YouCanBeAnArtist too as you can follow the code demonstration by the speakers right from your home!</p>
-                <p>While learning, you can also win exciting prizes by answering questions and participating in numerous contests that will happen over the 3 days. Register now to be a part of the exciting event planned for you!</p>
+                <div class="clock-container">
+                    <h1 id="clock-headline">Coming Soon</h1>
+                    <div id="clock-countdown">
+                        <ul>
+                            <li><span id="days"></span>days</li>
+                            <i class="timer-dot">:</i>
+                            <li><span id="hours"></span>Hours</li>
+                            <i class="timer-dot">:</i>
+                            <li><span id="minutes"></span>Minutes</li>
+                            <i class="timer-dot">:</i>
+                            <li><span id="seconds"></span>Seconds</li>
 
+                        </ul>
+                    </div>
+                    <div class="clock-message">
+                        <div id="clock-content">
+                            <span class="emoji">🥳</span>
+                            <span class="emoji">🎉</span>
+                            <span class="emoji">🎂</span>
+                        </div>
+                    </div>
+                </div>
+                <script>
+                    (function() {
+                        const second = 1000,
+                            minute = second * 60,
+                            hour = minute * 60,
+                            day = hour * 24;
+
+                        let birthday = "mar 2, 2021 20:31:00",
+                            countDown = new Date(birthday).getTime(),
+                            x = setInterval(function() {
+
+                                let now = new Date().getTime(),
+                                    distance = countDown - now;
+
+                                document.getElementById("days").innerText = Math.floor(distance / (day)),
+                                    document.getElementById("hours").innerText = Math.floor((distance % (day)) / (hour)),
+                                    document.getElementById("minutes").innerText = Math.floor((distance % (hour)) / (minute)),
+                                    document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second);
+
+                                //do something later when date is reached
+                                if (distance < 0) {
+                                    let headline = document.getElementById("clock-headline"),
+                                        countdown = document.getElementById("clock-countdown"),
+                                        content = document.getElementById("clock-content");
+
+                                    headline.innerText = "Event is Live Now..!";
+                                    countdown.style.display = "none";
+                                    content.style.display = "none";
+
+                                    clearInterval(x);
+                                }
+                                //seconds
+                            }, 0)
+                    }());
+                </script>
+                <p> <i>DevFair India</i> - India's biggest developer conclave with 100+ DSC communities.</p>
+                <p>Separated by distance, united by passion.</p>
+                <div class="register-follow-button">
+                    <a href="#" class="register-btn">Register</a>
+                    <a href="#" class="get-your-badge">Get Your Profile Badge</a>
+                </div>
+                <a href="#" class="hashtags-btn">#DevFairIndia</a>
             </div>
             <div class="hero-s-sec-right">
                 <div class="hero-sec-right-outer">

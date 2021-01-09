@@ -1,5 +1,5 @@
 .hero-l-con-sec {
-    padding: 40px;
+    padding: 20px;
     font-family: "Product Sans";
     font-style: normal;
     line-height: 30px;
@@ -7,17 +7,20 @@
 }
 
 .hero-m-con-sec {
-    padding: 20px 40px;
+    padding: 10px 60px;
     display: flex;
     background-position: center;
+    margin: 20px;
 }
 
 .hero-s-sec-left {
-    padding: 25px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
 }
 
 .hero-sec-img {
-    height: 70px;
+    height: 110px;
     margin-bottom: 15px;
 }
 
@@ -25,7 +28,66 @@
     display: flex;
     padding: 8px 0px;
     font-size: 18px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+    justify-content: center;
+    margin-top: -35px;
+}
+
+.clock-container {
+    padding: 10px 5px;
+}
+
+.clock-timer {
+    color: #333;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.clock-container h1 {
+    letter-spacing: 15px;
+    text-transform: uppercase;
+}
+
+#clock-countdown li {
+    display: inline-block;
+    font-size: 15px;
+    list-style-type: none;
+    padding: 10px;
+    text-transform: capitalize;
+}
+
+#clock-countdown li span {
+    display: block;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 16px;
+    height: 30px;
+    width: 50px;
+    background-color: #353434;
+    border-radius: 4px;
+    border: 1px solid rgb(220, 234, 255);
+    background: 0% 0% no-repeat padding-box padding-box rgb(255, 255, 255);
+    box-shadow: rgb(220, 234, 255) 0px 1.2px 6px;
+}
+
+i.timer-dot {
+    display: inline-block;
+    font-size: 25px;
+    transform: translateY(-42px);
+}
+
+.clock-message {
+    font-size: 20px;
+}
+
+#clock-content {
+    display: none;
+    padding: 15px;
+}
+
+.emoji {
+    padding: 5px;
 }
 
 .hero-time-line-date h2 {
@@ -33,11 +95,16 @@
 }
 
 .hero-s-sec-left p {
-    font-size: 17px;
+    font-size: 16px;
     line-height: 25px;
     font-weight: 500;
-    padding: 10px 70px 10px 0px;
+    padding: 10px;
     color: #353434;
+}
+
+.hero-s-sec-left i {
+    font-weight: 600;
+    color: #000000;
 }
 
 .hero-sec-right-outer {
@@ -45,14 +112,59 @@
 }
 
 .hero-s-sec-right {
-    padding: 25px;
+    padding: 10px;
     align-items: center;
     justify-content: center;
     align-self: center;
+    margin: 10px;
 }
 
 .hero-section-right-img {
     height: 330px;
+}
+
+.register-follow-button {
+    margin-bottom: 15px;
+    padding: 5px;
+}
+
+.register-btn,
+.get-your-badge {
+    font-size: 14px;
+    text-decoration: none;
+    padding: 8px 35px;
+    margin: 10px 5px;
+    border-radius: 4px;
+}
+
+.register-btn {
+    color: #fff;
+    background-color: #0005DF;
+    border: 1px solid #0005DF;
+}
+
+.get-your-badge {
+    color: #0005DF;
+    background-color: #fff;
+    border: 1px solid #85858563;
+}
+
+.get-your-badge:hover {
+    background-color: #0004df11;
+}
+
+.hashtags-btn {
+    font-size: 14px;
+    text-decoration: none;
+    padding: 10px 30px;
+    color: #0005DF;
+    background-color: #ffffff;
+    border-radius: 4px;
+    font-weight: 500;
+}
+
+.hashtags-btn:hover {
+    background-color: #0004df11;
 }
 
 @media screen and (max-width: 1020px) {
@@ -61,28 +173,63 @@
     }
     .hero-m-con-sec {
         flex-direction: column-reverse;
-        padding: 10px;
+        padding: 5px;
+        margin: 0px;
     }
     .hero-s-sec-left {
         padding: 5px;
+        margin: 0px;
     }
     .hero-s-sec-right {
-        padding: 10px;
+        padding: 5px;
         margin-bottom: 10px;
     }
     .hero-section-right-img {
         height: 200px;
     }
     .hero-sec-img {
-        height: 60px;
+        height: 90px;
         margin-bottom: 5px;
     }
     .hero-time-line-date {
         padding: 6px 2px;
-        margin-bottom: 15px;
-        margin-top: -15px;
+        margin-bottom: 12px;
+        margin-top: -20px;
     }
     .hero-s-sec-left p {
-        padding: 10px 5px;
+        padding: 5px;
+        margin-bottom: 5px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .clock-container h1 {
+        font-size: 14px;
+    }
+    #clock-countdown li {
+        font-size: 12px;
+        padding: 10px;
+    }
+    #clock-countdown li span {
+        font-size: 22px;
+        padding: 10px;
+        width: 35px;
+    }
+    i.timer-dot {
+        transform: translateY(-33px);
+    }
+    li span {
+        font-size: 3.375rem;
+    }
+    div#clock-countdown {
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+    .register-btn,
+    .get-your-badge {
+        padding: 7px 20px;
+    }
+    .register-follow-button {
+        margin-bottom: 8px;
     }
 }

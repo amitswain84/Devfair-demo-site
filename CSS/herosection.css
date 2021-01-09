@@ -207,7 +207,7 @@ i.timer-dot {
         font-size: 14px;
     }
     #clock-countdown li {
-        font-size: 12px;
+        font-size: 13px;
         padding: 10px;
     }
     #clock-countdown li span {
@@ -227,7 +227,7 @@ i.timer-dot {
     }
     .register-btn,
     .get-your-badge {
-        padding: 8px 20px;
+        padding: 10px 20px;
         font-size: 15px;
     }
     .register-follow-button {

@@ -227,9 +227,13 @@ i.timer-dot {
     }
     .register-btn,
     .get-your-badge {
-        padding: 7px 20px;
+        padding: 8px 20px;
+        font-size: 15px;
     }
     .register-follow-button {
         margin-bottom: 8px;
+    }
+    .hashtags-btn {
+        padding: 8px 20px;
     }
 }

@@ -136,7 +136,7 @@ i.timer-dot {
 
 .register-btn,
 .get-your-badge {
-    font-size: 14px;
+    font-size: 15px;
     text-decoration: none;
     padding: 10px 35px;
     margin: 10px 5px;
@@ -145,22 +145,29 @@ i.timer-dot {
 
 .register-btn {
     color: #fff;
-    background-color: #0005DF;
-    border: 1px solid #0005DF;
+    background-color: #1273EB;
+    border: 1px solid #1273EB;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.register-btn:hover {
+    background-color: #0b5cbe;
+    border: 1px solid #0b5cbe;
 }
 
 .get-your-badge {
-    color: #0005DF;
+    color: #1273EB;
     background-color: #fff;
     border: 1px solid #85858563;
 }
 
 .get-your-badge:hover {
-    background-color: #0004df11;
+    background-color: #1274eb0c;
 }
 
 .hashtags-btn {
-    font-size: 14px;
+    font-size: 15px;
     text-decoration: none;
     padding: 10px 30px;
     color: #0005DF;
@@ -170,7 +177,7 @@ i.timer-dot {
 }
 
 .hashtags-btn:hover {
-    background-color: #0004df11;
+    background-color: #1274eb0c;
 }
 
 @media screen and (max-width: 1020px) {
@@ -236,6 +243,7 @@ i.timer-dot {
     }
     .register-follow-button {
         margin-bottom: 8px;
+        margin-left: -10px;
     }
     .hashtags-btn {
         padding: 8px 20px;

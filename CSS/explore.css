@@ -21,11 +21,6 @@ h4 {
     background: #0004dfb9;
 }
 
-::selection {
-    color: white;
-    background: #0004dfb9;
-}
-
 .flex {
     display: -webkit-box;
     /* OLD: Safari, iOS, Android browser */

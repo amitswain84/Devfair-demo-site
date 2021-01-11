@@ -205,27 +205,6 @@ section.flex-1 p {
     color: #353434;
 }
 
-.flex-1 .card-3 {
-    background-image: url(https://ionicframework.com/img/getting-started/ionic-native-card.png);
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: 80px;
-}
-
-.flex-1 .card-2 {
-    background-image: url(https://ionicframework.com/img/getting-started/theming-card.png);
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: 80px;
-}
-
-.flex-1 .card-5 {
-    background-image: url(https://ionicframework.com/img/getting-started/components-card.png);
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: 80px;
-}
-
 @media (min-width:900px) {
     .page-title {
         text-align: center;

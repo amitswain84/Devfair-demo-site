@@ -308,14 +308,14 @@
         padding: 20px;
     }
     .subcribe-main-section {
-        padding: 0 5px;
+        padding: 0;
         margin: 0;
     }
     .Subscribe p {
         line-height: 20px;
     }
     .Subscribe form {
-        width: 335px;
+        width: 93%;
         right: 15px;
         transform: translateX(-12px)
     }

@@ -301,7 +301,7 @@
 @media screen and (max-width: 992px) {
     .Container {
         padding: 5px;
-        margin: 0px;
+        margin: 5px 0px;
     }
     .Subscribe {
         height: 170px;
@@ -309,13 +309,13 @@
     }
     .subcribe-main-section {
         padding: 0 5px;
-        margin: 0 10px
+        margin: 0;
     }
     .Subscribe p {
         line-height: 20px;
     }
     .Subscribe form {
-        width: 330px;
+        width: 335px;
         right: 15px;
         transform: translateX(-12px)
     }

@@ -91,9 +91,12 @@
         width: 100%;
     }
     .accordion {
-        width: 23rem;
+        width: 22rem;
     }
     .faq-s-accordtion {
         margin-left: 0rem;
+    }
+    .faq-m-accordition {
+        height: 400px;
     }
 }

@@ -166,7 +166,7 @@ a.nav-active {
 }
 
 section.flex-1 {
-    padding: 20px;
+    padding: 25px;
     margin: 5px 0px 20px 20px;
     border-radius: 4px;
     border: 1px solid rgb(220, 234, 255);
@@ -178,7 +178,6 @@ section.flex-1 {
 }
 
 section.flex-1:hover {
-    background: 0% 0% no-repeat padding-box padding-box rgb(255, 255, 255);
     box-shadow: rgb(220, 234, 255) 0px 3px 16px;
     transform: scale(1.02);
     border: 1px solid #0004dfa2;
@@ -204,6 +203,27 @@ section.flex-1 p {
     line-height: 20px;
     font-size: 16px;
     color: #353434;
+}
+
+.flex-1 .card-3 {
+    background-image: url(https://ionicframework.com/img/getting-started/ionic-native-card.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 80px;
+}
+
+.flex-1 .card-2 {
+    background-image: url(https://ionicframework.com/img/getting-started/theming-card.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 80px;
+}
+
+.flex-1 .card-5 {
+    background-image: url(https://ionicframework.com/img/getting-started/components-card.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 80px;
 }
 
 @media (min-width:900px) {
@@ -257,10 +277,10 @@ section.flex-1 p {
         padding: 50px 7%;
     }
     [role="main"] {
-        padding: 20px 10% 20px 0;
+        padding: 20px 7% 20px 0;
     }
     [role="navigation"] {
-        padding: 25px 15px 20px 10%;
+        padding: 25px 15px 20px 7%;
     }
     [role="navigation"] li {
         padding: 0 0 1px 0;

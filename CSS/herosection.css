@@ -149,6 +149,7 @@ i.timer-dot {
     border: 1px solid #1273EB;
     font-weight: 500;
     letter-spacing: 1px;
+    box-shadow: 0 3px 8px rgba(18, 116, 237, 0.25);
 }
 
 .register-btn:hover {

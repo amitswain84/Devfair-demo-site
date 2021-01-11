@@ -9,9 +9,11 @@
     <link rel="stylesheet" href="CSS/subscribe.css">
     <link rel="stylesheet" href="CSS/herosection.css">
     <link rel="stylesheet" href="CSS/about.css">
+    <link rel="stylesheet" href="CSS/faq.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@animxyz/core@0.3.0/dist/animxyz.min.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css'>
 
 </head>
 
@@ -408,28 +410,90 @@
     <!-- Counter-container-END -->
 
 
-    <!-- Subscribe Section START -->
-    <div class="subcribe-main-section">
-        <div class="Container">
-            <div class="Subscribe" onload='document.form1.text1.focus()'>
-                <h3>Subscribe to our newsletter</h3>
-                <p>Weekly animation tutorials delivered straight to your inbox</p>
-                <form name="form1" action="#">
-                    <input type="text" name='text1' placeholder="example@gmail.com" />
-                    <input class="submit-button" type="submit" name="Validate" value="Subscribe" onclick="ValidateEmail(document.form1.text1)" />
-
-                </form>
-                <div class="Loading">
-                    <div class="LoadingDot"></div>
-                    <div class="LoadingDot"></div>
-                    <div class="LoadingDot"></div>
-                    <div class="LoadingDot"></div>
-                    <span>Subscribing</span>
+    <!-- FAQ Section START -->
+    <div class="faq-m-accordition">
+        <div class="faq-s-accordtion">
+            <div class="accordion js-accordion">
+                <div class="accordion__item js-accordion-item">
+                    <div class="accordion-header js-accordion-header">Panel 1</div>
+                    <div class="accordion-body js-accordion-body">
+                        <div class="accordion-body__contents">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos sequi placeat distinctio dolor, amet magnam voluptatibus eos ex vero, sunt veritatis esse. Nostrum voluptatum et repudiandae vel sed, explicabo in?
+                        </div>
+                    </div </div>
+                    <!-- end of accordion body -->
                 </div>
-                <div class="Complete">
-                    <div class="Tick">
+                <!-- end of accordion item -->
+                <div class="accordion__item js-accordion-item active">
+                    <div class="accordion-header js-accordion-header">Panel 2</div>
+                    <div class="accordion-body js-accordion-body">
+                        <div class="accordion-body__contents">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos sequi placeat distinctio dolor, amet magnam voluptatibus eos ex vero, sunt veritatis esse. Nostrum voluptatum et repudiandae vel sed, explicabo in?
+                        </div>
+                    </div>
+                    <!-- end of accordion body -->
+                </div>
+                <!-- end of accordion item -->
+                <div class="accordion__item js-accordion-item">
+                    <div class="accordion-header js-accordion-header">Panel 3</div>
+                    <div class="accordion-body js-accordion-body">
+                        <div class="accordion-body__contents">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos sequi placeat distinctio dolor, amet magnam voluptatibus eos ex vero, sunt veritatis esse. Nostrum voluptatum et repudiandae vel sed, explicabo in?
+                        </div>
+                    </div>
+                    <!-- end of accordion body -->
+                </div>
+                <!-- end of accordion item -->
+                <div class="accordion__item js-accordion-item">
+                    <div class="accordion-header js-accordion-header">Panel 4</div>
+                    <div class="accordion-body js-accordion-body">
+                        <div class="accordion-body__contents">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos sequi placeat distinctio dolor, amet magnam voluptatibus eos ex vero, sunt veritatis esse. Nostrum voluptatum et repudiandae vel sed, explicabo in?
+                        </div>
+                    </div>
+                    <!-- end of accordion body -->
+                </div>
+                <!-- end of accordion item -->
+                <div class="accordion__item js-accordion-item">
+                    <div class="accordion-header js-accordion-header">Panel 5</div>
+                    <div class="accordion-body js-accordion-body">
+                        <div class="accordion-body__contents">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos sequi placeat distinctio dolor, amet magnam voluptatibus eos ex vero, sunt veritatis esse. Nostrum voluptatum et repudiandae vel sed, explicabo in?
+                        </div>
+                    </div>
+                    <!-- end of accordion body -->
+                </div>
 
-                        <svg width="32px" height="25px" viewBox="0 0 32 25">
+            </div>
+        </div>
+
+
+
+        <!-- FAQ Section ENDS -->
+
+
+        <!-- Subscribe Section START -->
+        <div class="subcribe-main-section">
+            <div class="Container">
+                <div class="Subscribe" onload='document.form1.text1.focus()'>
+                    <h3>Subscribe to our newsletter</h3>
+                    <p>Weekly animation tutorials delivered straight to your inbox</p>
+                    <form name="form1" action="#">
+                        <input type="text" name='text1' placeholder="example@gmail.com" />
+                        <input class="submit-button" type="submit" name="Validate" value="Subscribe" onclick="ValidateEmail(document.form1.text1)" />
+
+                    </form>
+                    <div class="Loading">
+                        <div class="LoadingDot"></div>
+                        <div class="LoadingDot"></div>
+                        <div class="LoadingDot"></div>
+                        <div class="LoadingDot"></div>
+                        <span>Subscribing</span>
+                    </div>
+                    <div class="Complete">
+                        <div class="Tick">
+
+                            <svg width="32px" height="25px" viewBox="0 0 32 25">
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Artboard" transform="translate(-384.000000, -217.000000)" fill-rule="nonzero" fill="#FFFFFF">
             <g id="Group" transform="translate(360.000000, 189.000000)">
@@ -438,30 +502,31 @@
         </g>
     </g>
 </svg>
+                        </div>
+                        <h4>Thank you for subscribing</h4>
+                        <span>You will receive a confirmation email shortly.</span>
                     </div>
-                    <h4>Thank you for subscribing</h4>
-                    <span>You will receive a confirmation email shortly.</span>
                 </div>
             </div>
         </div>
-    </div>
 
 
 
-    <!-- Subscribe Section ENDS -->
+        <!-- Subscribe Section ENDS -->
 
 
 
-    <div class="endbox">
-        <h1>END</h1>
-    </div>
-    <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
-    <script src="JS/script.js"></script>
-    <script src="JS/explore.js"></script>
-    <script src="JS/subscribe.js"></script>
-    <script src="JS/email-validation.js"></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/react/15.6.1/react.min.js'></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/react/15.6.1/react-dom.min.js'></script>
+        <div class="endbox">
+            <h1>END</h1>
+        </div>
+        <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+        <script src="JS/script.js"></script>
+        <script src="JS/explore.js"></script>
+        <script src="JS/subscribe.js"></script>
+        <script src="JS/faq.js"></script>
+        <script src="JS/email-validation.js"></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/react/15.6.1/react.min.js'></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/react/15.6.1/react-dom.min.js'></script>
 
 </body>
 

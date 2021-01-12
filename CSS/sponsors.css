@@ -50,7 +50,7 @@
     opacity: 1;
 }
 
-@media all and (max-width: 550px) {
+@media all and (max-width: 600px) {
     .sponsors-section {
         padding: 5px;
     }
@@ -73,11 +73,11 @@
         margin: 5px;
     }
     .sponsors-cards {
-        width: 150px;
+        width: 100px;
         margin-bottom: 12px;
     }
     .sponsors-imgs {
-        width: 120px;
+        width: 100px;
     }
     .hideme {
         visibility: hidden;

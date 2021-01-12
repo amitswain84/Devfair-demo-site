@@ -1,0 +1,85 @@
+.sponsors-section {
+    padding: 10px;
+}
+
+.sponsors-section h1 {
+    padding: 5px;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.sponsors-s-sec {
+    padding: 10px;
+}
+
+.sponsors-s-sec h2 {
+    padding: 5px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.sponsors-m-img-sec {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 30px;
+    margin: 10px 30px;
+}
+
+.sponsors-cards {
+    position: relative;
+    padding: 8px;
+    border: 1px solid #ebebeb;
+    border-radius: 7px;
+}
+
+.hideme {
+    position: absolute;
+    opacity: 0;
+    padding: 6px 16px;
+    background-color: rgb(128, 128, 128);
+    color: white;
+    border-radius: 4px;
+    font-size: 15px;
+    margin-top: 0px;
+    margin-left: 32px;
+}
+
+.sponsors-cards:hover .hideme {
+    opacity: 1;
+}
+
+@media all and (max-width: 768px) {
+    .sponsors-section {
+        padding: 5px;
+    }
+    .sponsors-section h1 {
+        font-size: 25px;
+        margin-bottom: 5px;
+    }
+    .sponsors-s-sec {
+        padding: 5px;
+    }
+    .sponsors-s-sec h2 {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    .sponsors-m-img-sec {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 0px;
+        margin: 5px;
+    }
+    .sponsors-cards {
+        width: 150px;
+        margin-bottom: 12px;
+    }
+    .sponsors-imgs {
+        width: 120px;
+    }
+    .hideme {
+        visibility: hidden;
+    }
+}

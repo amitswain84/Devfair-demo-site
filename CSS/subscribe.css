@@ -44,7 +44,7 @@
 
 .Subscribe h3 {
     font-family: "Product Sans";
-    color: #0005df;
+    color: #1a73e8;
     font-size: 22px;
     margin-bottom: 15px;
     transition: opacity 900ms 150ms cubic-bezier(0.2, 0, 0, 1), transform 900ms 150ms cubic-bezier(0.2, 0, 0, 1);
@@ -68,15 +68,14 @@
     overflow: hidden;
     position: absolute;
     border-radius: 4px;
-    border: 1px solid #ffffff;
-    border: 1px solid rgb(220, 234, 255);
+    border: 2px solid #ffffff;
     background: #FFFFFF;
     box-shadow: 0 3px 6px 0 rgba(149, 144, 179, 0.2);
     transition: transform 600ms cubic-bezier(0.2, 0, 0, 1);
 }
 
 .Subscribe form:hover {
-    border: 2px solid #0005DF;
+    border: 2px solid #1a73e8;
 }
 
 .Subscribe form::after {
@@ -110,16 +109,17 @@
     width: 110px;
     border: none;
     height: 100%;
-    color: #0005df;
+    color: #ffffff;
     font-size: 15px;
     position: absolute;
-    background-color: white;
+    background-color: #1a73e8;
     transition: color 500ms;
 }
 
 .Subscribe form .submit-button:hover {
-    color: #0005df;
+    color: #ffffff;
     font-weight: 500 !important;
+    background-color: #0b5cbe;
 }
 
 .Loading {
@@ -130,7 +130,7 @@
     bottom: 50px;
     position: absolute;
     text-align: center;
-    potiner-events: none;
+    pointer-events: none;
     transition: opacity 900ms 0s cubic-bezier(0.2, 0, 0, 1), transform 900ms 0s cubic-bezier(0.2, 0, 0, 1);
 }
 

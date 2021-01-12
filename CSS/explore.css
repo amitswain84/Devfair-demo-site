@@ -34,6 +34,22 @@ h4 {
     /* NEW: Opera 12.1, Firefox 22+ */
 }
 
+.event-track-headline {
+    padding: 20px 40px;
+    text-align: center;
+}
+
+.event-track-headline h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-size: 600;
+}
+
+.event-track-headline h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
 .flex-1 {
     -webkit-box-flex: 1 auto;
     box-flex: 1 auto;
@@ -147,8 +163,7 @@ h4 {
 }
 
 a.nav-active {
-    background: #0004df11;
-    border: 2px solid #0005DF;
+    border: 2px solid #1a73e8;
 }
 
 .tab-img {
@@ -156,20 +171,19 @@ a.nav-active {
     background: #ffffff;
     background: 0% 0% no-repeat padding-box padding-box rgb(255, 255, 255);
     box-shadow: rgb(220, 234, 255) 0px 2px 8px;
-    border: 2px solid rgb(220, 234, 255);
+    border: 2px solid #dbe2eb;
     font-weight: 400;
 }
 
 .tab-img:hover {
-    background: #0004df11;
-    border: 2px solid #0004df9a;
+    border: 2px solid #1273EB;
 }
 
 section.flex-1 {
-    padding: 25px;
+    padding: 20px;
     margin: 5px 0px 20px 20px;
     border-radius: 4px;
-    border: 1px solid rgb(220, 234, 255);
+    border: 1px solid #dbe2eb;
     background: #ffffff;
     background: 0% 0% no-repeat padding-box padding-box rgb(255, 255, 255);
     box-shadow: rgb(220, 234, 255) 0px 3px 16px;
@@ -180,7 +194,7 @@ section.flex-1 {
 section.flex-1:hover {
     box-shadow: rgb(220, 234, 255) 0px 3px 16px;
     transform: scale(1.02);
-    border: 1px solid #0004dfa2;
+    border: 1px solid #1a73e8;
 }
 
 h2.event-topic-title {
@@ -286,10 +300,22 @@ section.flex-1 p {
     }
     [role="navigation"] a {
         padding: 12px 14px;
-        font-size: 15px;
+        font-size: 16px;
         margin-left: 3px;
         font-weight: 500;
         text-align: center;
         box-shadow: rgb(220, 234, 255) 0px 1px 6px;
+    }
+    .event-track-headline {
+        padding: 10px 25px;
+        text-align: left;
+    }
+    .event-track-headline h1 {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    .event-track-headline h3 {
+        font-size: 16px;
+        margin-bottom: 15px;
     }
 }

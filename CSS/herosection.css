@@ -7,21 +7,21 @@
 }
 
 .hero-m-con-sec {
-    padding: 10px 60px;
+    padding: 10px 50px;
     display: flex;
     background-position: center;
     margin: 20px;
 }
 
 .hero-s-sec-left {
-    padding: 10px;
+    padding: 30px 5px;
     margin: 10px;
     text-align: left;
 }
 
 .hero-sec-img {
-    height: 100px;
-    margin-bottom: 15px;
+    height: 75px;
+    margin-bottom: 10px;
     margin-left: 8px;
 }
 
@@ -29,7 +29,6 @@
     display: flex;
     padding: 5px 0px;
     font-size: 18px;
-    margin-bottom: 10px;
     text-align: left;
     justify-content: left;
     margin-top: -30px;
@@ -101,11 +100,11 @@ i.timer-dot {
 }
 
 .hero-s-sec-left p {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 25px;
-    font-weight: 500;
+    font-weight: 300;
     padding: 10px;
-    color: #353434;
+    color: rgba(0, 0, 0, 0.87);
 }
 
 .hero-s-sec-left i {
@@ -118,7 +117,7 @@ i.timer-dot {
 }
 
 .hero-s-sec-right {
-    padding: 10px;
+    padding: 20px 5px;
     align-items: center;
     justify-content: center;
     align-self: center;
@@ -126,39 +125,38 @@ i.timer-dot {
 }
 
 .hero-section-right-img {
-    height: 450px;
+    height: 400px;
 }
 
 .register-follow-button {
-    margin-bottom: 15px;
+    margin-top: 20px;
     padding: 5px;
 }
 
 .register-btn,
 .get-your-badge {
-    font-size: 15px;
+    font-size: 16px;
     text-decoration: none;
-    padding: 10px 35px;
-    margin: 10px 5px;
+    padding: 12px 38px;
+    margin-right: 10px;
     border-radius: 4px;
 }
 
 .register-btn {
     color: #fff;
-    background-color: #1273EB;
-    border: 1px solid #1273EB;
+    background-color: #1a73e8;
+    border: 1px solid #1a73e8;
     font-weight: 500;
     letter-spacing: 1px;
-    box-shadow: 0 3px 8px rgba(18, 116, 237, 0.25);
 }
 
 .register-btn:hover {
-    background-color: #0b5cbe;
-    border: 1px solid #0b5cbe;
+    background-color: #186bd6;
+    border: 1px solid #1a73e8;
 }
 
 .get-your-badge {
-    color: #1273EB;
+    color: #1a73e8;
     background-color: #fff;
     border: 1px solid #85858563;
 }
@@ -170,11 +168,13 @@ i.timer-dot {
 .hashtags-btn {
     font-size: 15px;
     text-decoration: none;
-    padding: 10px 30px;
-    color: #0005DF;
+    padding: 7px 25px;
+    margin-left: 8px;
+    color: #000000;
     background-color: #ffffff;
     border-radius: 4px;
     font-weight: 500;
+    border: 1px solid #85858563;
 }
 
 .hashtags-btn:hover {
@@ -196,7 +196,7 @@ i.timer-dot {
     }
     .hero-s-sec-right {
         padding: 5px;
-        margin: 10px 5px;
+        margin: 10px 5px 35px 5px;
     }
     .hero-section-right-img {
         height: 230px;
@@ -206,11 +206,12 @@ i.timer-dot {
         margin-bottom: 5px;
     }
     .hero-time-line-date {
-        padding: 6px 2px;
-        margin-bottom: 12px;
+        padding: 2px 2px;
+        margin-bottom: 0px;
         margin-top: -20px;
     }
     .hero-s-sec-left p {
+        font-size: 16px;
         padding: 5px;
         margin-bottom: 5px;
     }
@@ -234,7 +235,7 @@ i.timer-dot {
         transform: translateY(-33px);
     }
     div#clock-countdown {
-        margin-left: -20px;
+        margin-left: -10px;
         margin-right: -20px;
     }
     .register-btn,

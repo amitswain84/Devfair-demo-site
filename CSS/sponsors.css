@@ -50,7 +50,7 @@
     opacity: 1;
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 550px) {
     .sponsors-section {
         padding: 5px;
     }
